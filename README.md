@@ -1,1 +1,1 @@
-# SmPortfolio.github.io
+Portfolio.github.io
