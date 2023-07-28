@@ -29,7 +29,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #f00;
+  background: rgb(255, 238, 0);
 }
 
 body {
@@ -61,7 +61,7 @@ section {
 
 .heading span {
   font-size: 3rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
@@ -73,8 +73,8 @@ section {
   display: inline-block;
   padding: 1rem 2.8rem;
   padding-right: 3rem;
-  background: linear-gradient(130deg, #f00 93%, transparent 90%);
-  color: #fff;
+  background: linear-gradient(130deg, rgb(255, 238, 0) 93%, transparent 90%);
+  color: #272727;
   cursor: pointer;
   font-size: 1.7rem;
 }
@@ -110,7 +110,7 @@ section {
 }
 
 .header .logo span {
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .header .navbar a {
@@ -121,7 +121,8 @@ section {
 }
 
 .header .navbar a:hover {
-  background: #f00;
+  background: rgb(255, 238, 0);
+  color: #000;
 }
 
 #menu-btn {
@@ -155,7 +156,7 @@ section {
 
 .home .slide .content span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
   display: block;
 }
 
@@ -173,7 +174,7 @@ section {
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #f00;
+  background: rgb(255, 238, 0);
 }
 
 .about {
@@ -199,7 +200,7 @@ section {
   content: '';
   position: absolute;
   z-index: -1;
-  background: #f00;
+  background: rgb(255, 238, 0);
   height: 15rem;
   width: 15rem;
 }
@@ -227,7 +228,7 @@ section {
 
 .about .content span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .about .content .title {
@@ -266,7 +267,7 @@ section {
 
 .about .content .box-container .box h3 i {
   padding-right: 1.5rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .features .box-container {
@@ -324,7 +325,7 @@ section {
 
 .features .box-container .box .content h3 {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .features .box-container .box .content p {
@@ -344,7 +345,7 @@ section {
 
 .pricing .information span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .pricing .information h3 {
@@ -362,7 +363,7 @@ section {
 
 .pricing .information p i {
   padding-right: 1rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .pricing .plan {
@@ -383,7 +384,7 @@ section {
 .pricing .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .pricing .plan .price span {
@@ -404,7 +405,10 @@ section {
 
 .pricing .plan .list p i {
   padding-right: 1rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
+  display: flex;
+  justify-content: space-around;
+ 
 }
 
 .trainers .box-container {
@@ -446,7 +450,7 @@ section {
 
 .trainers .box-container .box .content span {
   font-size: 1.5rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .trainers .box-container .box .content h3 {
@@ -468,7 +472,7 @@ section {
 }
 
 .trainers .box-container .box .content .share a:hover {
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .banner {
@@ -482,7 +486,7 @@ section {
 
 .banner span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .banner h3 {
@@ -520,7 +524,7 @@ section {
 
 .review .information span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .review .information h3 {
@@ -578,7 +582,7 @@ section {
 }
 
 .review .review-slider .slide .user span {
-  color: #f00;
+  color: rgb(255, 238, 0);
   font-size: 1.5rem;
 }
 
@@ -586,7 +590,7 @@ section {
   font-size: 5rem;
   margin-left: auto;
   margin-right: 2rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .blogs .slide {
@@ -622,7 +626,7 @@ section {
 }
 
 .blogs .slide .content .link a {
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .blogs .slide .content .link a:hover {
@@ -669,7 +673,7 @@ section {
 }
 
 .footer .box-container .box .links:hover {
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .footer .box-container .box p {
@@ -680,7 +684,7 @@ section {
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 .footer .box-container .box .share {
@@ -700,7 +704,7 @@ section {
 }
 
 .footer .box-container .box .share a:hover {
-  background: #f00;
+  background:rgb(255, 238, 0);
 }
 
 .footer .box-container .box form .email {
@@ -723,7 +727,7 @@ section {
 }
 
 .credit span {
-  color: #f00;
+  color: rgb(255, 238, 0);
 }
 
 @media (max-width: 991px) {
