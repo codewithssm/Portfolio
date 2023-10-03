@@ -39,7 +39,7 @@ window.onscroll = () => {
  /*scroll reveal*/
  ScrollReveal({ 
     //reset: true,
-    distance: '80px',
+    distance: '30px',
     duration: 2000,
     delay: 200
  });
@@ -51,7 +51,7 @@ window.onscroll = () => {
 
 /*typed js*/
 const typed = new Typed('.multiple-text',{
-    strings: ['Frontend Developer', 'UI/UX Designer', 'Content Creator', 'Gamer'],
+    strings: ['Frontend Developer', 'UI/UX Designer', 'Content Creator'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
